@@ -1,0 +1,26 @@
+TypeScript check return code: 2
+
+STDOUT:
+src/App.tsx(1,80): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+src/App.tsx(2,41): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/App.tsx(7,8): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/App.tsx(8,31): error TS2307: Cannot find module 'firebase/app' or its corresponding type declarations.
+src/App.tsx(11,8): error TS2307: Cannot find module 'firebase/auth' or its corresponding type declarations.
+src/App.tsx(14,8): error TS2307: Cannot find module 'firebase/firestore' or its corresponding type declarations.
+src/App.tsx(17,31): error TS2552: Cannot find name '__firebase_config'. Did you mean 'firebaseConfig'?
+src/App.tsx(17,78): error TS2552: Cannot find name '__firebase_config'. Did you mean 'firebaseConfig'?
+src/App.tsx(21,22): error TS2304: Cannot find name '__app_id'.
+src/App.tsx(21,49): error TS2304: Cannot find name '__app_id'.
+src/App.tsx(107,18): error TS2304: Cannot find name '__initial_auth_token'.
+src/App.tsx(107,58): error TS2304: Cannot find name '__initial_auth_token'.
+src/App.tsx(108,43): error TS2304: Cannot find name '__initial_auth_token'.
+src/App.tsx(164,5): error TS2875: This JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+src/App.tsx(318,15): error TS2322: Type '{ key: any; service: any; onOrder: () => any; }' is not assignable to type '{ service: any; onOrder: any; }'.
+  Property 'key' does not exist on type '{ service: any; onOrder: any; }'.
+src/main.tsx(1,19): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+src/main.tsx(2,28): error TS2307: Cannot find module 'react-dom/client' or its corresponding type declarations.
+src/main.tsx(6,3): error TS2875: This JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+
+
+STDERR:
+
