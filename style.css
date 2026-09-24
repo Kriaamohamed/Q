@@ -1,0 +1,8 @@
+/* MoDex global CSS.
+   The original app uses Tailwind utility classes, loaded by index.html.
+   These rules provide the base page behavior. */
+html, body, #root { min-height: 100%; }
+html { scroll-behavior: smooth; }
+body { margin: 0; }
+*, *::before, *::after { box-sizing: border-box; }
+button, input, textarea, select { font: inherit; }
